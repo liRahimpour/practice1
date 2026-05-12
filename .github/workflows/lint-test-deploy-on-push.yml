@@ -7,7 +7,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
-      - name: name: Setup Node.js
+      - name: Setup
         uses: actions/setup-node@v4
 
       - name: Install dependencies
