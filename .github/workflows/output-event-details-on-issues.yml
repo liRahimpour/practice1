@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo_details
-        run: echo "${{ github.event_path }}"
+        run: echo "${{ github.event }}"
